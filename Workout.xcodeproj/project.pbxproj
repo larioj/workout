@@ -54,14 +54,22 @@
 		B9F7B22B23790F0B0027F785 /* Workout */ = {
 			isa = PBXGroup;
 			children = (
-				B9F7B22C23790F0B0027F785 /* AppDelegate.swift */,
+				B9F7B23F23790F440027F785 /* Resources */,
 				B9F7B22E23790F0B0027F785 /* ViewController.swift */,
 				B9F7B23023790F0B0027F785 /* Main.storyboard */,
-				B9F7B23323790F0B0027F785 /* Assets.xcassets */,
 				B9F7B23523790F0B0027F785 /* LaunchScreen.storyboard */,
-				B9F7B23823790F0B0027F785 /* Info.plist */,
 			);
 			path = Workout;
+			sourceTree = "<group>";
+		};
+		B9F7B23F23790F440027F785 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9F7B22C23790F0B0027F785 /* AppDelegate.swift */,
+				B9F7B23323790F0B0027F785 /* Assets.xcassets */,
+				B9F7B23823790F0B0027F785 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Workout/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Workout/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = larioj.Workout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,7 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Workout/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Workout/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = larioj.Workout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
