@@ -12,6 +12,7 @@
 		B9F7B23223790F0B0027F785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9F7B23023790F0B0027F785 /* Main.storyboard */; };
 		B9F7B23423790F0B0027F785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9F7B23323790F0B0027F785 /* Assets.xcassets */; };
 		B9F7B23723790F0B0027F785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9F7B23523790F0B0027F785 /* LaunchScreen.storyboard */; };
+		B9F7B243237911E00027F785 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F7B242237911E00027F785 /* Workout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B9F7B23323790F0B0027F785 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9F7B23623790F0B0027F785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9F7B23823790F0B0027F785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9F7B242237911E00027F785 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		B9F7B22B23790F0B0027F785 /* Workout */ = {
 			isa = PBXGroup;
 			children = (
+				B9F7B241237911AA0027F785 /* Model */,
 				B9F7B23F23790F440027F785 /* Resources */,
 				B9F7B22E23790F0B0027F785 /* StartViewController.swift */,
 				B9F7B23023790F0B0027F785 /* Main.storyboard */,
@@ -70,6 +73,14 @@
 				B9F7B23823790F0B0027F785 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		B9F7B241237911AA0027F785 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B9F7B242237911E00027F785 /* Workout.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +157,7 @@
 			files = (
 				B9F7B22F23790F0B0027F785 /* StartViewController.swift in Sources */,
 				B9F7B22D23790F0B0027F785 /* AppDelegate.swift in Sources */,
+				B9F7B243237911E00027F785 /* Workout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
