@@ -1,4 +1,5 @@
 # Warkout
 
     $ git status
-    $ git add -A && git commit -m "Moved resources"
+    $ git diff
+    $ git add -A && git commit -m "Renamed top level controller"
