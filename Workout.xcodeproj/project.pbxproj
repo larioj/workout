@@ -58,9 +58,8 @@
 			children = (
 				B9F7B241237911AA0027F785 /* Model */,
 				B9F7B23F23790F440027F785 /* Resources */,
-				B9F7B22E23790F0B0027F785 /* StartViewController.swift */,
-				B9F7B23023790F0B0027F785 /* Main.storyboard */,
-				B9F7B23523790F0B0027F785 /* LaunchScreen.storyboard */,
+				B9F7B244237912340027F785 /* Controller */,
+				B9F7B2452379124A0027F785 /* View */,
 			);
 			path = Workout;
 			sourceTree = "<group>";
@@ -81,6 +80,23 @@
 				B9F7B242237911E00027F785 /* Workout.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B9F7B244237912340027F785 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B9F7B22E23790F0B0027F785 /* StartViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B9F7B2452379124A0027F785 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B9F7B23023790F0B0027F785 /* Main.storyboard */,
+				B9F7B23523790F0B0027F785 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
