@@ -9,4 +9,28 @@
 import Foundation
 
 public class Workout {
+    var current: Int! = 0
+    var exercises: [Exercise]!
+    var seconds: Int! = 0
+    
+    static func render(workout: Data.Workout) -> Workout {
+        let result = Workout()
+        var exercises: [Exercise] = []
+        for (sectIdx, sect) in workout.sections.enumerated() {
+            var progress : [Int] = []
+            var totals : [String: Int] = [:]
+            sect.exercises.forEach { ex in
+                totals[ex.name] = (totals[ex.name] ?? 0) + 1
+                progress.append(totals[ex.name] ?? 0)
+            }
+            for (exIdx, ex) in sect.exercises.enumerated() {
+                let sectionProgressStr = String(format: "%d of %d", sectIdx + 1, workout.sections.count)
+                let progressStr = String(format: "%d of %d", progress[exIdx], totals[ex.name] ?? 0)
+                exercises.append(
+                    Exercise(section: sect.name, sectionProgress: sectionProgressStr, name: ex.name, progress: progressStr, reps: ex.length, rest: ex.rest ?? sect.rest))
+            }
+        }
+        result.exercises = exercises
+        return result
+    }
 }
