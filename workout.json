@@ -1,75 +1,82 @@
 {
   "sections" : [
-        {"name": "Warm Up", "rest": 20, "exercises": [
-            {"name": "Jumping Jacks"   , "length": "20", "rest": null},
-            {"name": "Wrist Circles"   , "length": "15", "rest": null},
-            {"name": "Jumping Jacks"   , "length": "20", "rest": null},
-            {"name": "Shoulder Circles", "length": "15", "rest": null},
-            {"name": "B.W. Squats"     , "length": "15", "rest": null}
-            ]},
-        {"name": "Shoulders", "rest": 90, "exercises": [
-            {"name": "Skin The Cat", "length": "5"     , "rest": null},
-            {"name": "German Hang" , "length": "30 sec", "rest": null},
-            {"name": "Pull Up"     , "length": "7"     , "rest": null},
-            {"name": "Dips"        , "length": "6"     , "rest": null},
-            {"name": "Pull Up"     , "length": "6"     , "rest": null},
-            {"name": "Dips"        , "length": "6"     , "rest": null},
-            {"name": "Pull Up"     , "length": "6"     , "rest": null},
-            {"name": "Dips"        , "length": "5"     , "rest": null},
-            {"name": "Row"         , "length": "13"    , "rest": null},
-            {"name": "Ring Push Up", "length": "11"    , "rest": null},
-            {"name": "Row"         , "length": "12"    , "rest": null},
-            {"name": "Ring Push Up", "length": "11"    , "rest": null},
-            {"name": "Row"         , "length": "12"    , "rest": null},
-            {"name": "Ring Push Up", "length": "11"    , "rest": null}
-            ]},
-        {"name": "Core", "rest": 30, "exercises": [
-            {"name": "Plank"      , "length": "60 sec", "rest": null},
-            {"name": "Left Plank" , "length": "60 sec", "rest": null},
-            {"name": "Right Plank", "length": "60 sec", "rest": null},
-            {"name": "Rev. Plank" , "length": "60 sec", "rest": null},
-            {"name": "Arch"       , "length": "60 sec", "rest": null},
-            {"name": "Hollow"     , "length": "60 sec", "rest": null}
-            ]},
-        {"name": "Handstand", "rest": 30, "exercises": [
-            {"name": "Wall Hand Stand", "length": "1:40 sec", "rest": null},
-            {"name": "Wall Hand Stand", "length": "20 sec"  , "rest": null},
-            {"name": "Hand Stand"     , "length": "20 sec"  , "rest": null},
-            {"name": "Hand Stand"     , "length": "20 sec"  , "rest": null}
-            ]},
-        {"name": "Mana", "rest": 30, "exercises": [
-            {"name": "Bent Leg"          , "length": "20 sec", "rest": null},
-            {"name": "Bent Leg"          , "length": "20 sec", "rest": null},
-            {"name": "Left Leg Cheaters" , "length": "60 sec", "rest": null},
-            {"name": "Right Leg Cheaters", "length": "60 sec", "rest": null},
-            {"name": "2-Leg Cheaters"    , "length": "60 sec", "rest": null},
-            {"name": "2-Leg Cheaters"    , "length": "60 sec", "rest": 60  },
-            {"name": "2-Leg Cheaters"    , "length": "60 sec", "rest": null},
-            {"name": "2-Leg Cheaters"    , "length": "60 sec", "rest": null}
-            ]},
-        {"name": "Legs", "rest": 180, "exercises": [
-            {"name": "Power Clean", "length": "15", "rest": null},
-            {"name": "Power Clean", "length": "15", "rest": null},
-            {"name": "Power Clean", "length": "15", "rest": null},
-            {"name": "Squat"      , "length": "11", "rest": null},
-            {"name": "Squat"      , "length": "11", "rest": null},
-            {"name": "Squat"      , "length": "11", "rest": null}
-            ]},
-        {"name": "Misc", "rest": 90, "exercises": [
-            {"name": "Bicep Curl", "length": "14", "rest": null},
-            {"name": "Box Jump"  , "length": "10", "rest": null},
-            {"name": "Bicep Curl", "length": "13", "rest": null},
-            {"name": "Box Jump"  , "length": "10", "rest": null},
-            {"name": "Bicep Curl", "length": "13", "rest": null},
-            {"name": "Box Jump"  , "length": "10", "rest": null}
-            ]},
-        {"name": "Cool Down", "rest": 10, "exercises": [
-            {"name": "Leg Split", "length": "30 sec", "rest": null},
-            {"name": "Leg Hug"  , "length": "30 sec", "rest": null},
-            {"name": "Leg Split", "length": "30 sec", "rest": null},
-            {"name": "Leg Hug"  , "length": "30 sec", "rest": null},
-            {"name": "Leg Split", "length": "30 sec", "rest": null},
-            {"name": "Leg Hug"  , "length": "30 sec", "rest": null}
-            ]}
+        {"name": "Warm Up", "rest": 20, "exercises": {
+            "1": {"name": "Jumping Jacks", "length": "20"},
+            "3": {"name": "Jumping Jacks", "length": "20"},
+
+            "2": {"name": "Wrist Circles", "length": "15"},
+            "4": {"name": "Shoulder Circles", "length": "15"},
+            "5": {"name": "B.W. Squats", "length": "15"}
+            }},
+        {"name": "Shoulders", "rest": 90, "exercises": {
+            "1": {"name": "Skin The Cat", "length": "5"},
+            "2": {"name": "German Hang", "length": "30 sec"},
+
+            "3": {"name": "Pull Up", "length": "7"},
+            "5": {"name": "Pull Up", "length": "6"},
+            "7": {"name": "Pull Up", "length": "6"},
+
+            "4": {"name": "Dips", "length": "6"},
+            "6": {"name": "Dips", "length": "6"},
+            "8": {"name": "Dips", "length": "5"},
+
+            "9":  {"name": "Row", "length": "13"},
+            "11": {"name": "Row", "length": "12"},
+            "13": {"name": "Row", "length": "12"},
+
+            "10": {"name": "Ring Push Up", "length": "11"},
+            "12": {"name": "Ring Push Up", "length": "11"},
+            "14": {"name": "Ring Push Up", "length": "11"}
+            }},
+        {"name": "Core", "rest": 30, "exercises": {
+            "1": {"name": "Plank"      , "length": "60 sec"},
+            "2": {"name": "Left Plank" , "length": "60 sec"},
+            "3": {"name": "Right Plank", "length": "60 sec"},
+            "4": {"name": "Rev. Plank" , "length": "60 sec"},
+            "5": {"name": "Arch"       , "length": "60 sec"},
+            "6": {"name": "Hollow"     , "length": "60 sec"}
+            }},
+        {"name": "Handstand", "rest": 30, "exercises": {
+            "1": {"name": "Wall Hand Stand", "length": "1:40 sec"},
+            "2": {"name": "Wall Hand Stand", "length": "20 sec"},
+            "3": {"name": "Hand Stand"     , "length": "20 sec"},
+            "4": {"name": "Hand Stand"     , "length": "20 sec"}
+            }},
+        {"name": "Mana", "rest": 30, "exercises": {
+            "1": {"name": "Bent Leg"          , "length": "20 sec"},
+            "2": {"name": "Bent Leg"          , "length": "20 sec"},
+            "3": {"name": "Left Leg Cheaters" , "length": "60 sec"},
+            "4": {"name": "Right Leg Cheaters", "length": "60 sec"},
+            "5": {"name": "2-Leg Cheaters"    , "length": "60 sec"},
+            "6": {"name": "2-Leg Cheaters"    , "length": "60 sec", "rest": 60  },
+            "7": {"name": "2-Leg Cheaters"    , "length": "60 sec"},
+            "8": {"name": "2-Leg Cheaters"    , "length": "60 sec"}
+            }},
+        {"name": "Legs", "rest": 180, "exercises": {
+            "1": {"name": "Power Clean", "length": "15"},
+            "2": {"name": "Power Clean", "length": "15"},
+            "3": {"name": "Power Clean", "length": "15"},
+            "4": {"name": "Squat"      , "length": "11"},
+            "5": {"name": "Squat"      , "length": "11"},
+            "6": {"name": "Squat"      , "length": "11"}
+            }},
+        {"name": "Misc", "rest": 90, "exercises": {
+            "1": {"name": "Bicep Curl", "length": "14"},
+            "3": {"name": "Bicep Curl", "length": "13"},
+            "5": {"name": "Bicep Curl", "length": "13"},
+
+            "2": {"name": "Box Jump", "length": "10"},
+            "4": {"name": "Box Jump", "length": "10"},
+            "6": {"name": "Box Jump", "length": "10"}
+            }},
+        {"name": "Cool Down", "rest": 10, "exercises": {
+            "1": {"name": "Leg Split", "length": "30 sec"},
+            "3": {"name": "Leg Split", "length": "30 sec"},
+            "5": {"name": "Leg Split", "length": "30 sec"},
+
+            "2": {"name": "Leg Hug", "length": "30 sec"},
+            "4": {"name": "Leg Hug", "length": "30 sec"},
+            "6": {"name": "Leg Hug", "length": "30 sec"}
+            }}
     ]
 }
