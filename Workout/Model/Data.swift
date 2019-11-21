@@ -52,6 +52,7 @@ public struct Data {
         var result: Data.Workout! = Workout()
         if let data = data {
             if let codableWorkout = try? JSONDecoder().decode(Data.CodableWorkout.self, from: data) {
+                result.sections = []
                 codableWorkout.sections.forEach { codsect in
                     var sect: Data.Section! = Data.Section(name: codsect.name, rest: codsect.rest, exercises: [:])
                     for (key, value) in codsect.exercises {
