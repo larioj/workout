@@ -9,23 +9,23 @@
             "5": {"name": "B.W. Squats", "length": "15"}
             }},
         {"name": "Shoulders", "rest": 90, "exercises": {
-            "1": {"name": "Skin The Cat", "length": "5"},
+            "1": {"name": "Skin The Cat", "length": "6"},
             "2": {"name": "German Hang", "length": "30 sec"},
 
             "3": {"name": "Pull Up", "length": "7"},
-            "5": {"name": "Pull Up", "length": "6"},
+            "5": {"name": "Pull Up", "length": "7"},
             "7": {"name": "Pull Up", "length": "6"},
 
             "4": {"name": "Dips", "length": "6"},
             "6": {"name": "Dips", "length": "6"},
-            "8": {"name": "Dips", "length": "5"},
+            "8": {"name": "Dips", "length": "6"},
 
             "9":  {"name": "Row", "length": "13"},
-            "11": {"name": "Row", "length": "12"},
+            "11": {"name": "Row", "length": "13"},
             "13": {"name": "Row", "length": "12"},
 
-            "10": {"name": "Ring Push Up", "length": "11"},
-            "12": {"name": "Ring Push Up", "length": "11"},
+            "10": {"name": "Ring Push Up", "length": "12"},
+            "12": {"name": "Ring Push Up", "length": "12"},
             "14": {"name": "Ring Push Up", "length": "11"}
             }},
         {"name": "Core", "rest": 30, "exercises": {
@@ -53,16 +53,16 @@
             "8": {"name": "2-Leg Cheaters"    , "length": "60 sec"}
             }},
         {"name": "Legs", "rest": 180, "exercises": {
-            "1": {"name": "Power Clean", "length": "15"},
-            "2": {"name": "Power Clean", "length": "15"},
-            "3": {"name": "Power Clean", "length": "15"},
-            "4": {"name": "Squat"      , "length": "11"},
+            "1": {"name": "Power Clean + 5", "length": "9"},
+            "2": {"name": "Power Clean + 5", "length": "9"},
+            "3": {"name": "Power Clean + 5", "length": "9"},
+            "4": {"name": "Squat"      , "length": "12"},
             "5": {"name": "Squat"      , "length": "11"},
             "6": {"name": "Squat"      , "length": "11"}
             }},
         {"name": "Misc", "rest": 90, "exercises": {
             "1": {"name": "Bicep Curl", "length": "14"},
-            "3": {"name": "Bicep Curl", "length": "13"},
+            "3": {"name": "Bicep Curl", "length": "14"},
             "5": {"name": "Bicep Curl", "length": "13"},
 
             "2": {"name": "Box Jump", "length": "10"},
