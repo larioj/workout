@@ -8,4 +8,6 @@
 ## Git
     $ git status
     $ git diff
-    $ git add -A && git commit -m "Add functionality"
+    $ git add -A && \
+        git commit -m "workout update" && \
+        git push -u origin master
