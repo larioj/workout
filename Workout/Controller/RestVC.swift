@@ -13,6 +13,7 @@ class RestVC: UIViewController {
     
     @IBOutlet weak var totalTimeLabel: UILabel!
     @IBOutlet weak var countdownLabel: UILabel!
+    @IBOutlet weak var upNextLabel: UILabel!
     
     var timer = Timer()
     var countdown = 180
@@ -20,9 +21,18 @@ class RestVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let curEx = workout.exercises[workout.current]
+        var nextEx: Exercise? = nil
+        if workout.current + 1 != workout.exercises.count {
+            nextEx = workout.exercises[workout.current + 1]
+        }
         totalTimeLabel.text = timeString(time: workout.seconds)
         countdown = curEx.rest
         countdownLabel.text = timeString(time: countdown)
+        if let nextEx = nextEx {
+            upNextLabel.text = "Up Next: " + nextEx.reps + " " + nextEx.name
+        } else {
+            upNextLabel.text = "Up Next: Nothing"
+        }
         runTimer()
     }
     

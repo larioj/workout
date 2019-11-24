@@ -172,31 +172,38 @@
                                 <rect key="frame" x="10" y="10" width="355" height="627"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OPS-xd-wcR">
-                                        <rect key="frame" x="0.0" y="0.0" width="355" height="157"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="125.5"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rest" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oc5-aE-G1x">
-                                        <rect key="frame" x="0.0" y="157" width="355" height="156.5"/>
+                                        <rect key="frame" x="0.0" y="125.5" width="355" height="125.5"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Up Next: ???" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="tuM-5o-PkA">
+                                        <rect key="frame" x="0.0" y="251" width="355" height="125"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YNY-vo-egs">
-                                        <rect key="frame" x="0.0" y="313.5" width="355" height="157"/>
+                                        <rect key="frame" x="0.0" y="376" width="355" height="125.5"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="iYx-BL-qb7">
-                                        <rect key="frame" x="0.0" y="470.5" width="355" height="156.5"/>
+                                        <rect key="frame" x="0.0" y="501.5" width="355" height="125.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UIR-2J-S4I">
-                                                <rect key="frame" x="0.0" y="0.0" width="177.5" height="156.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="177.5" height="125.5"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <state key="normal" title="Exit"/>
                                                 <connections>
@@ -204,7 +211,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W3g-5M-2QW">
-                                                <rect key="frame" x="177.5" y="0.0" width="177.5" height="156.5"/>
+                                                <rect key="frame" x="177.5" y="0.0" width="177.5" height="125.5"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <state key="normal" title="Next"/>
                                                 <connections>
@@ -228,6 +235,7 @@
                     <connections>
                         <outlet property="countdownLabel" destination="YNY-vo-egs" id="Fmh-XD-aio"/>
                         <outlet property="totalTimeLabel" destination="OPS-xd-wcR" id="vxh-yn-d2B"/>
+                        <outlet property="upNextLabel" destination="tuM-5o-PkA" id="fKG-h9-can"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s0q-mV-YWT" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -236,8 +244,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="rr1-MA-K8h"/>
         <segue reference="kUZ-5P-ps6"/>
-        <segue reference="r9V-l5-plc"/>
+        <segue reference="55e-28-AMA"/>
     </inferredMetricsTieBreakers>
 </document>
