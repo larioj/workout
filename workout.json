@@ -17,7 +17,7 @@
 
             "3": {"name": "Pull Up", "length": "8"},
             "5": {"name": "Pull Up", "length": "8"},
-            "7": {"name": "Pull Up", "length": "7"},
+            "7": {"name": "Pull Up", "length": "8"},
 
             "4": {"name": "Dips", "length": "7"},
             "6": {"name": "Dips", "length": "7"},
@@ -25,11 +25,11 @@
 
             "9":  {"name": "Row", "length": "14"},
             "11": {"name": "Row", "length": "14"},
-            "13": {"name": "Row", "length": "13"},
+            "13": {"name": "Row", "length": "14"},
 
             "10": {"name": "Ring Push Up", "length": "13"},
             "12": {"name": "Ring Push Up", "length": "13"},
-            "14": {"name": "Ring Push Up", "length": "12"}
+            "14": {"name": "Ring Push Up", "length": "13"}
             }},
         {"name": "Core", "rest": 30, "exercises": {
             "0": {"name": "Core Setup", "length": "", "rest": 0},
@@ -71,14 +71,14 @@
             "4": {"name": "Squat Setup", "length": "", "rest": 0},
             "5": {"name": "Squat"      , "length": "13"},
             "6": {"name": "Squat"      , "length": "13"},
-            "7": {"name": "Squat"      , "length": "12"}
+            "7": {"name": "Squat"      , "length": "13"}
             }},
         {"name": "Misc", "rest": 90, "exercises": {
             "0": {"name": "Misc Setup", "length": "", "rest": 0},
 
             "1": {"name": "Bicep Curl", "length": "15"},
             "3": {"name": "Bicep Curl", "length": "15"},
-            "5": {"name": "Bicep Curl", "length": "14"},
+            "5": {"name": "Bicep Curl", "length": "15"},
 
             "2": {"name": "Box Jump", "length": "10"},
             "4": {"name": "Box Jump", "length": "10"},

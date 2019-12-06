@@ -1,6 +1,5 @@
 # Warkout
 
-
 ## Workout
 * Workout/Model/Workout.swift
 * Workout/Model/Data.swift
@@ -9,6 +8,7 @@
 ## Git
     $ git status
     $ git diff
+    $ git checkout master
     $ git diff && \
         git add -A && \
         git commit -m "workout update" && \
