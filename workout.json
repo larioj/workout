@@ -10,29 +10,29 @@
             "5": {"name": "B.W. Squats", "length": "15"}
             }},
         {"name": "Shoulders", "rest": 90, "exercises": {
-            "0": {"name": "Shoulder Setup", "length": "", "rest": 0},
+            "0": {"name": "Shoulder Setup", "length": "", "rest": 10},
 
             "1": {"name": "Skin The Cat", "length": "7"},
             "2": {"name": "German Hang", "length": "30 sec"},
 
             "3": {"name": "Pull Up", "length": "9"},
             "5": {"name": "Pull Up", "length": "9"},
-            "7": {"name": "Pull Up", "length": "8"},
+            "7": {"name": "Pull Up", "length": "9"},
 
             "4": {"name": "Dips", "length": "8"},
             "6": {"name": "Dips", "length": "8"},
-            "8": {"name": "Dips", "length": "7"},
+            "8": {"name": "Dips", "length": "8"},
 
             "9":  {"name": "Row", "length": "15"},
             "11": {"name": "Row", "length": "15"},
-            "13": {"name": "Row", "length": "14"},
+            "13": {"name": "Row", "length": "15"},
 
             "10": {"name": "Ring Push Up", "length": "14"},
             "12": {"name": "Ring Push Up", "length": "14"},
-            "14": {"name": "Ring Push Up", "length": "13"}
+            "14": {"name": "Ring Push Up", "length": "14"}
             }},
         {"name": "Core", "rest": 30, "exercises": {
-            "0": {"name": "Core Setup", "length": "", "rest": 0},
+            "0": {"name": "Core Setup", "length": "", "rest": 10},
 
             "1": {"name": "Plank"      , "length": "60 sec"},
             "2": {"name": "Left Plank" , "length": "60 sec"},
@@ -42,7 +42,7 @@
             "6": {"name": "Hollow"     , "length": "60 sec"}
             }},
         {"name": "Handstand", "rest": 30, "exercises": {
-            "0": {"name": "Handstand Setup", "length": "", "rest": 0},
+            "0": {"name": "Handstand Setup", "length": "", "rest": 10},
 
             "1": {"name": "Rolls", "length": "10"},
             "2": {"name": "Wall Handstand", "length": "1:40 sec"},
@@ -50,7 +50,7 @@
             "4": {"name": "Hand Stand Freestyle"     , "length": "5 min"}
             }},
         {"name": "Mana", "rest": 30, "exercises": {
-            "0": {"name": "Mana Setup", "length": "", "rest": 0},
+            "0": {"name": "Mana Setup", "length": "", "rest": 10},
 
             "1": {"name": "Bent Leg"          , "length": "40 sec"},
             "2": {"name": "Bent Leg"          , "length": "40 sec"},
@@ -62,30 +62,30 @@
             "8": {"name": "2-Leg Cheaters"    , "length": "60 sec"}
             }},
         {"name": "Legs", "rest": 180, "exercises": {
-            "0": {"name": "Power Clean Setup", "length": "", "rest": 0},
+            "0": {"name": "Power Clean Setup", "length": "", "rest": 10},
 
             "1": {"name": "Power Clean + 5", "length": "11"},
             "2": {"name": "Power Clean + 5", "length": "11"},
-            "3": {"name": "Power Clean + 5", "length": "10"},
+            "3": {"name": "Power Clean + 5", "length": "11"},
             
-            "4": {"name": "Squat Setup", "length": "", "rest": 0},
+            "4": {"name": "Squat Setup", "length": "", "rest": 10},
             "5": {"name": "Squat"      , "length": "14"},
             "6": {"name": "Squat"      , "length": "14"},
-            "7": {"name": "Squat"      , "length": "13"}
+            "7": {"name": "Squat"      , "length": "14"}
             }},
         {"name": "Misc", "rest": 90, "exercises": {
-            "0": {"name": "Misc Setup", "length": "", "rest": 0},
+            "0": {"name": "Misc Setup", "length": "", "rest": 10},
 
-            "1": {"name": "Bicep Curl", "length": "10"},
+            "1": {"name": "Bicep Curl", "length": "11"},
             "3": {"name": "Bicep Curl", "length": "10"},
-            "5": {"name": "Bicep Curl", "length": "9"},
+            "5": {"name": "Bicep Curl", "length": "10"},
 
             "2": {"name": "Box Jump", "length": "10"},
             "4": {"name": "Box Jump", "length": "10"},
             "6": {"name": "Box Jump", "length": "10"}
             }},
         {"name": "Cool Down", "rest": 10, "exercises": {
-            "0": {"name": "Cool Down Setup", "length": "", "rest": 0},
+            "0": {"name": "Cool Down Setup", "length": "", "rest": 10},
 
             "1": {"name": "Leg Split", "length": "30 sec"},
             "3": {"name": "Leg Split", "length": "30 sec"},
