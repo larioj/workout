@@ -16,19 +16,19 @@
             "2": {"name": "German Hang", "length": "30 sec"},
 
             "3": {"name": "Pull Up", "length": "10"},
-            "5": {"name": "Pull Up", "length": "9"},
+            "5": {"name": "Pull Up", "length": "10"},
             "7": {"name": "Pull Up", "length": "9"},
 
             "4": {"name": "Dips", "length": "9"},
-            "6": {"name": "Dips", "length": "8"},
+            "6": {"name": "Dips", "length": "9"},
             "8": {"name": "Dips", "length": "8"},
 
             "9":  {"name": "Wide Row", "length": "9"},
-            "11": {"name": "Wide Row", "length": "8"},
+            "11": {"name": "Wide Row", "length": "9"},
             "13": {"name": "Wide Row", "length": "8"},
 
             "10": {"name": "Ring Push Up", "length": "15"},
-            "12": {"name": "Ring Push Up", "length": "14"},
+            "12": {"name": "Ring Push Up", "length": "15"},
             "14": {"name": "Ring Push Up", "length": "14"}
             }},
         {"name": "Core", "rest": 30, "exercises": {
@@ -65,12 +65,12 @@
             "0": {"name": "Power Clean Setup", "length": "", "rest": 10},
 
             "1": {"name": "Power Clean + 5", "length": "12"},
-            "2": {"name": "Power Clean + 5", "length": "11"},
+            "2": {"name": "Power Clean + 5", "length": "12"},
             "3": {"name": "Power Clean + 5", "length": "11"},
             
             "4": {"name": "Squat Setup", "length": "", "rest": 10},
             "5": {"name": "Squat"      , "length": "15"},
-            "6": {"name": "Squat"      , "length": "14"},
+            "6": {"name": "Squat"      , "length": "15"},
             "7": {"name": "Squat"      , "length": "14"}
             }},
         {"name": "Misc", "rest": 90, "exercises": {
@@ -78,7 +78,7 @@
 
             "1": {"name": "Bicep Curl", "length": "11"},
             "3": {"name": "Bicep Curl", "length": "11"},
-            "5": {"name": "Bicep Curl", "length": "10"},
+            "5": {"name": "Bicep Curl", "length": "11"},
 
             "2": {"name": "Box Jump", "length": "10"},
             "4": {"name": "Box Jump", "length": "10"},
