@@ -21,13 +21,13 @@
 
             "4": {"name": "Dips", "length": "10"},
             "6": {"name": "Dips", "length": "10"},
-            "8": {"name": "Dips", "length": "9"},
+            "8": {"name": "Dips", "length": "10"},
 
             "9":  {"name": "Wide Row", "length": "10"},
             "11": {"name": "Wide Row", "length": "10"},
-            "13": {"name": "Wide Row", "length": "9"},
+            "13": {"name": "Wide Row", "length": "10"},
 
-            "10": {"name": "Ring Push Up", "length": "11"},
+            "10": {"name": "Ring Push Up", "length": "12"},
             "12": {"name": "Ring Push Up", "length": "11"},
             "14": {"name": "Ring Push Up", "length": "11"}
             }},
@@ -64,12 +64,12 @@
 
             "1": {"name": "Power Clean + 5", "length": "13"},
             "2": {"name": "Power Clean + 5", "length": "13"},
-            "3": {"name": "Power Clean + 5", "length": "12"},
+            "3": {"name": "Power Clean + 5", "length": "13"},
             
             "4": {"name": "Squat Setup", "length": "", "rest": 10},
             "5": {"name": "Squat"      , "length": "9"},
             "6": {"name": "Squat"      , "length": "9"},
-            "7": {"name": "Squat"      , "length": "8"}
+            "7": {"name": "Squat"      , "length": "9"}
             }},
         {"name": "Misc", "rest": 90, "exercises": {
             "0": {"name": "Misc Setup", "length": "", "rest": 10},
