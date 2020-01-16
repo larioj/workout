@@ -31,16 +31,6 @@
             "12": {"name": "Ring Push Up", "length": "13"},
             "14": {"name": "Ring Push Up", "length": "13"}
             }},
-        {"name": "Core", "rest": 30, "exercises": {
-            "0": {"name": "Core Setup", "length": "", "rest": 10},
-
-            "1": {"name": "Plank"      , "length": "60 sec"},
-            "2": {"name": "Left Plank" , "length": "60 sec"},
-            "3": {"name": "Right Plank", "length": "60 sec"},
-            "4": {"name": "Rev. Plank" , "length": "60 sec"},
-            "5": {"name": "Arch"       , "length": "60 sec"},
-            "6": {"name": "Hollow"     , "length": "60 sec"}
-            }},
         {"name": "Handstand", "rest": 30, "exercises": {
             "0": {"name": "Handstand Setup", "length": "", "rest": 10},
 
@@ -56,6 +46,16 @@
             "2": {"name": "Assisted V-Sit", "length": "40 sec"},
             "3": {"name": "Assisted V-Sit", "length": "40 sec"},
             "4": {"name": "Assisted V-Sit", "length": "30 sec"}
+            }},
+        {"name": "Core", "rest": 30, "exercises": {
+            "0": {"name": "Core Setup", "length": "", "rest": 10},
+
+            "1": {"name": "Plank"      , "length": "60 sec"},
+            "2": {"name": "Left Plank" , "length": "60 sec"},
+            "3": {"name": "Right Plank", "length": "60 sec"},
+            "4": {"name": "Rev. Plank" , "length": "60 sec"},
+            "5": {"name": "Arch"       , "length": "60 sec"},
+            "6": {"name": "Hollow"     , "length": "60 sec"}
             }},
         {"name": "Legs", "rest": 180, "exercises": {
             "0": {"name": "Power Clean Setup", "length": "", "rest": 10},
