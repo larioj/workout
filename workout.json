@@ -19,17 +19,17 @@
             "5": {"name": "Pull Up", "length": "12"},
             "7": {"name": "Pull Up", "length": "11"},
 
-            "4": {"name": "Dips", "length": "11"},
+            "4": {"name": "Dips", "length": "12"},
             "6": {"name": "Dips", "length": "11"},
             "8": {"name": "Dips", "length": "11"},
 
-            "9":  {"name": "Wide Row", "length": "11"},
+            "9":  {"name": "Wide Row", "length": "12"},
             "11": {"name": "Wide Row", "length": "11"},
             "13": {"name": "Wide Row", "length": "11"},
 
             "10": {"name": "Ring Push Up", "length": "14"},
             "12": {"name": "Ring Push Up", "length": "14"},
-            "14": {"name": "Ring Push Up", "length": "13"}
+            "14": {"name": "Ring Push Up", "length": "14"}
             }},
         {"name": "Handstand", "rest": 30, "exercises": {
             "0": {"name": "Handstand Setup", "length": "", "rest": 10},
@@ -42,10 +42,7 @@
         {"name": "Mana", "rest": 60, "exercises": {
             "0": {"name": "Mana Setup", "length": "", "rest": 10},
 
-            "1": {"name": "Assisted V-Sit", "length": "40 sec"},
-            "2": {"name": "Assisted V-Sit", "length": "40 sec"},
-            "3": {"name": "Assisted V-Sit", "length": "40 sec"},
-            "4": {"name": "Assisted V-Sit", "length": "40 sec"}
+            "1": {"name": "Assisted V-Sit", "length": "1 min"},
             }},
         {"name": "Core", "rest": 30, "exercises": {
             "0": {"name": "Core Setup", "length": "", "rest": 10},
@@ -60,12 +57,12 @@
         {"name": "Legs", "rest": 180, "exercises": {
             "0": {"name": "Power Clean Setup", "length": "", "rest": 10},
 
-            "1": {"name": "Power Clean + 5", "length": "14"},
+            "1": {"name": "Power Clean + 5", "length": "15"},
             "2": {"name": "Power Clean + 5", "length": "14"},
             "3": {"name": "Power Clean + 5", "length": "14"},
             
             "4": {"name": "Squat Setup", "length": "", "rest": 10},
-            "5": {"name": "Squat"      , "length": "10"},
+            "5": {"name": "Squat"      , "length": "11"},
             "6": {"name": "Squat"      , "length": "10"},
             "7": {"name": "Squat"      , "length": "10"}
             }},
@@ -73,7 +70,7 @@
             "0": {"name": "Misc Setup", "length": "", "rest": 10},
 
             "1": {"name": "Bicep Curl", "length": "14"},
-            "3": {"name": "Bicep Curl", "length": "13"},
+            "3": {"name": "Bicep Curl", "length": "14"},
             "5": {"name": "Bicep Curl", "length": "13"},
 
             "2": {"name": "Box Jump", "length": "10"},
