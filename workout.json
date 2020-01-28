@@ -15,21 +15,21 @@
             "1": {"name": "Skin The Cat", "length": "7"},
             "2": {"name": "German Hang", "length": "30 sec"},
 
-            "3": {"name": "Pull Up", "length": "12"},
+            "3": {"name": "Pull Up", "length": "13"},
             "5": {"name": "Pull Up", "length": "12"},
             "7": {"name": "Pull Up", "length": "12"},
 
-            "4": {"name": "Dips", "length": "12"},
+            "4": {"name": "Dips", "length": "13"},
             "6": {"name": "Dips", "length": "12"},
             "8": {"name": "Dips", "length": "12"},
 
-            "9":  {"name": "Wide Row", "length": "12"},
+            "9":  {"name": "Wide Row", "length": "13"},
             "11": {"name": "Wide Row", "length": "12"},
             "13": {"name": "Wide Row", "length": "12"},
 
-            "10": {"name": "Ring Push Up", "length": "15"},
-            "12": {"name": "Ring Push Up", "length": "15"},
-            "14": {"name": "Ring Push Up", "length": "14"}
+            "10": {"name": "RTO Push Up", "length": "8"},
+            "12": {"name": "RTO Push Up", "length": "8"},
+            "14": {"name": "RTO Push Up", "length": "8"}
             }},
         {"name": "Handstand", "rest": 30, "exercises": {
             "0": {"name": "Handstand Setup", "length": "", "rest": 10},
@@ -57,12 +57,12 @@
         {"name": "Legs", "rest": 180, "exercises": {
             "0": {"name": "Power Clean Setup", "length": "", "rest": 10},
 
-            "1": {"name": "Power Clean + 5", "length": "15"},
-            "2": {"name": "Power Clean + 5", "length": "15"},
-            "3": {"name": "Power Clean + 5", "length": "15"},
+            "1": {"name": "Power Clean + 10", "length": "8"},
+            "2": {"name": "Power Clean + 10", "length": "8"},
+            "3": {"name": "Power Clean + 10", "length": "8"},
             
             "4": {"name": "Squat Setup", "length": "", "rest": 10},
-            "5": {"name": "Squat"      , "length": "11"},
+            "5": {"name": "Squat"      , "length": "12"},
             "6": {"name": "Squat"      , "length": "11"},
             "7": {"name": "Squat"      , "length": "11"}
             }},
@@ -70,7 +70,7 @@
             "0": {"name": "Misc Setup", "length": "", "rest": 10},
 
             "1": {"name": "Bicep Curl", "length": "15"},
-            "3": {"name": "Bicep Curl", "length": "14"},
+            "3": {"name": "Bicep Curl", "length": "15"},
             "5": {"name": "Bicep Curl", "length": "14"},
 
             "2": {"name": "Box Jump", "length": "10"},
