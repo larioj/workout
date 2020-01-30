@@ -10,14 +10,14 @@
             "5": {"name": "B.W. Squats", "length": "15"}
             }},
         {"name": "Shoulders", "rest": 90, "exercises": {
-            "0": {"name": "Shoulder Setup", "length": "", "rest": 10},
-
-            "1": {"name": "Skin The Cat", "length": "7"},
-            "2": {"name": "German Hang", "length": "30 sec"},
-
-            "3": {"name": "Pull Up", "length": "13"},
-            "5": {"name": "Pull Up", "length": "12"},
-            "7": {"name": "Pull Up", "length": "12"},
+          
+            "0": {"name": "Skin The Cat", "length": "7"},
+            "2": {"name": "Skin The Cat", "length": "7"},
+          
+            "1": {"name": "Pull Up", "length": "13"},
+            "3": {"name": "Pull Up", "length": "11"},
+            "5": {"name": "Pull Up", "length": "8"},
+            "7": {"name": "Pull Up", "length": "6"},
 
             "4": {"name": "Dips", "length": "13"},
             "6": {"name": "Dips", "length": "13"},
