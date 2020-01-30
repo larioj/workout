@@ -20,16 +20,16 @@
             "7": {"name": "Pull Up", "length": "12"},
 
             "4": {"name": "Dips", "length": "13"},
-            "6": {"name": "Dips", "length": "12"},
+            "6": {"name": "Dips", "length": "13"},
             "8": {"name": "Dips", "length": "12"},
 
             "9":  {"name": "Wide Row", "length": "13"},
-            "11": {"name": "Wide Row", "length": "12"},
+            "11": {"name": "Wide Row", "length": "13"},
             "13": {"name": "Wide Row", "length": "12"},
 
-            "10": {"name": "RTO Push Up", "length": "8"},
-            "12": {"name": "RTO Push Up", "length": "8"},
-            "14": {"name": "RTO Push Up", "length": "8"}
+            "10": {"name": "RTO Push Up", "length": "3"},
+            "12": {"name": "RTO Push Up", "length": "3"},
+            "14": {"name": "RTO Push Up", "length": "3"}
             }},
         {"name": "Handstand", "rest": 30, "exercises": {
             "0": {"name": "Handstand Setup", "length": "", "rest": 10},
@@ -42,7 +42,7 @@
         {"name": "Mana", "rest": 60, "exercises": {
             "0": {"name": "Mana Setup", "length": "", "rest": 10},
 
-            "1": {"name": "Assisted V-Sit", "length": "1 min"},
+            "1": {"name": "L-Sit", "length": "1 min"},
             }},
         {"name": "Core", "rest": 30, "exercises": {
             "0": {"name": "Core Setup", "length": "", "rest": 10},
@@ -57,21 +57,21 @@
         {"name": "Legs", "rest": 180, "exercises": {
             "0": {"name": "Power Clean Setup", "length": "", "rest": 10},
 
-            "1": {"name": "Power Clean + 10", "length": "8"},
+            "1": {"name": "Power Clean + 10", "length": "9"},
             "2": {"name": "Power Clean + 10", "length": "8"},
             "3": {"name": "Power Clean + 10", "length": "8"},
             
             "4": {"name": "Squat Setup", "length": "", "rest": 10},
             "5": {"name": "Squat"      , "length": "12"},
-            "6": {"name": "Squat"      , "length": "11"},
+            "6": {"name": "Squat"      , "length": "12"},
             "7": {"name": "Squat"      , "length": "11"}
             }},
         {"name": "Misc", "rest": 90, "exercises": {
             "0": {"name": "Misc Setup", "length": "", "rest": 10},
 
-            "1": {"name": "Bicep Curl", "length": "15"},
-            "3": {"name": "Bicep Curl", "length": "15"},
-            "5": {"name": "Bicep Curl", "length": "14"},
+            "1": {"name": "Bicep Curl", "length": "8"},
+            "3": {"name": "Bicep Curl", "length": "8"},
+            "5": {"name": "Bicep Curl", "length": "8"},
 
             "2": {"name": "Box Jump", "length": "10"},
             "4": {"name": "Box Jump", "length": "10"},
