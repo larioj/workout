@@ -42,7 +42,7 @@
         {"name": "Mana", "rest": 60, "exercises": {
             "0": {"name": "Mana Setup", "length": "", "rest": 10},
 
-            "1": {"name": "L-Sit", "length": "1 min"},
+            "1": {"name": "L-Sit", "length": "1 min"}
             }},
         {"name": "Core", "rest": 30, "exercises": {
             "0": {"name": "Core Setup", "length": "", "rest": 10},

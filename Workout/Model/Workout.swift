@@ -8,31 +8,53 @@
 
 import Foundation
 
-public class Workout {
-    var current: Int! = 0
-    var exercises: [Exercise]!
-    var seconds: Int! = 0
+public struct Workout {
+    var exercises: [Exercise] = []
+    var index: [String : [String : [Int]]] = [:]
     
-    static func render(workout: Data.Workout) -> Workout {
-        let result = Workout()
-        var exercises: [Exercise] = []
-        for (sectIdx, sect) in workout.sections.enumerated() {
-            var progress : [Int: Int] = [:]
-            var totals : [String: Int] = [:]
-            sect.exercises.keys.sorted().forEach { order in
-                let ex = sect.exercises[order]!
-                totals[ex.name] = (totals[ex.name] ?? 0) + 1
-                progress[order] = totals[ex.name] ?? 0
+    init(csv: String) {
+        let lines = csv.components(separatedBy: .newlines)
+        var lastSection: String?
+        var group: [Exercise] = []
+        
+        // ignore empty lines at beginning of data
+        var start = 0
+        while start < lines.count &&
+            lines[start].trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+            start += 1;
+        }
+        
+        // put exercises in proper order
+        for i in start+1 ..< lines.count {
+            if lines[i].isEmpty {
+                continue
             }
-            sect.exercises.keys.sorted().forEach { order in
-                let ex = sect.exercises[order]!
-                let sectionProgressStr = String(format: "%d of %d", sectIdx + 1, workout.sections.count)
-                let progressStr = String(format: "%d of %d", progress[order] ?? 0, totals[ex.name] ?? 0)
-                exercises.append(
-                    Exercise(section: sect.name, sectionProgress: sectionProgressStr, name: ex.name, progress: progressStr, reps: ex.length, rest: ex.rest ?? sect.rest))
+            let ex = Exercise(csv: lines[i], linenum: i)
+            let order = Int(ex.order)
+            if (lastSection != ex.section || order == nil) {
+                group.sort(by: { a, b in
+                    return Int(a.order)! < Int(b.order)!
+                })
+                exercises.append(contentsOf: group)
+                group.removeAll(keepingCapacity: true)
+            }
+            lastSection = ex.section
+            if (order == nil) {
+                exercises.append(ex)
+            } else {
+                group.append(ex)
             }
         }
-        result.exercises = exercises
-        return result
+        exercises.append(contentsOf: group)
+        
+        // build index
+        for id in 0 ..< exercises.count {
+            let ex = exercises[id]
+            var section = index[ex.section] ?? [:]
+            var exercise = section[ex.exercise] ?? []
+            exercise.append(id);
+            section[ex.exercise] = exercise
+            index[ex.section] = section
+        }
     }
 }
