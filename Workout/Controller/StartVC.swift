@@ -11,6 +11,8 @@ import UIKit
 class StartVC: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let exerciseVC = segue.destination as? ExerciseVC else { return }
-        exerciseVC.workout = Workout.render(workout: Data.loadWorkout(url: Data.url))
+        exerciseVC.workout = Network.workout(url: Config.url)
+        exerciseVC.startTimes = []
+        exerciseVC.endTimes = []
     }
 }

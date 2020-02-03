@@ -10,7 +10,7 @@ import Foundation
 
 public struct Workout {
     var exercises: [Exercise] = []
-    var index: [String : [String : [Int]]] = [:]
+    var index: Index
     
     init(csv: String) {
         let lines = csv.components(separatedBy: .newlines)
@@ -48,13 +48,6 @@ public struct Workout {
         exercises.append(contentsOf: group)
         
         // build index
-        for id in 0 ..< exercises.count {
-            let ex = exercises[id]
-            var section = index[ex.section] ?? [:]
-            var exercise = section[ex.exercise] ?? []
-            exercise.append(id);
-            section[ex.exercise] = exercise
-            index[ex.section] = section
-        }
+        index = Index(exercises: exercises)
     }
 }

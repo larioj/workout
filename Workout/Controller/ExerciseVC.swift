@@ -10,32 +10,45 @@ import UIKit
 
 class ExerciseVC: UIViewController {
     var workout: Workout!
+    var startTimes: [Double]!
+    var endTimes: [Double]!
     
+    // Display
     @IBOutlet weak var section: UILabel!
     @IBOutlet weak var sectionProgress: UILabel!
     @IBOutlet weak var exercise: UILabel!
     @IBOutlet weak var progress: UILabel!
     @IBOutlet weak var reps: UILabel!
-    
-    var timer = Timer()
-    var seconds = 0
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var totalTimeLabel: UILabel!
     
+    // current state
+    var timer = Timer()
+    var id: Int = -1
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let curEx = workout.exercises[workout.current]
-        section.text = curEx.section
-        sectionProgress.text = curEx.sectionProgress
-        exercise.text = curEx.name
-        progress.text = curEx.progress
-        reps.text = curEx.reps
-        timeLabel.text = timeString(time: seconds)
-        totalTimeLabel.text = timeString(time: workout.seconds)
-        runTimer()
-    }
-    
-    func runTimer() {
+        
+        // set start time
+        id = startTimes.count
+        let grace: Double = 2
+        var start = NSTimeIntervalSince1970
+        if !endTimes.isEmpty && start + grace > endTimes[id - 1] {
+            start = endTimes[id - 1] + grace
+        }
+        startTimes.append(start)
+        
+        // display information
+        let ex = workout.exercises[id]
+        section.text = ex.section
+        sectionProgress.text = Render.sectionProgress(workout: workout, id: id)
+        exercise.text = ex.exercise
+        progress.text = Render.exerciseProgress(workout: workout, id: id)
+        reps.text = Render.showRepetitions(ex: ex)
+        timeLabel.text = Render.fmtSeconds(seconds: 0)
+        totalTimeLabel.text = Render.fmtSeconds(seconds: startTimes[id] - startTimes[0])
+        
+        // start timer
         timer = Timer.scheduledTimer(
             timeInterval: 1,
             target: self,
@@ -45,24 +58,16 @@ class ExerciseVC: UIViewController {
     }
     
     @objc func updateTimer() {
-        seconds += 1
-        timeLabel.text = timeString(time: seconds)
-        workout.seconds = workout.seconds + 1
-        totalTimeLabel.text = timeString(time: workout.seconds)
-    }
-    
-    func timeString(time: Int) -> String {
-        let t = TimeInterval(time)
-        let hours = Int(t) / 3600
-        let minutes = Int(t) / 60 % 60
-        let seconds = Int(t) % 60
-        return String(format: "%02i:%02i:%02i", hours, minutes, seconds)
+        let now = NSTimeIntervalSince1970
+        timeLabel.text = Render.fmtSeconds(seconds: now - startTimes[id])
+        totalTimeLabel.text = Render.fmtSeconds(seconds: now - startTimes[0])
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let restVC = segue.destination as? RestVC else { return }
         restVC.workout = workout
+        restVC.startTimes = startTimes
+        restVC.endTimes = endTimes
         timer.invalidate()
     }
-    
 }

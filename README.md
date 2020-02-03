@@ -1,4 +1,4 @@
-# Warkout
+# Workout
 
 ## Workout
 * Workout/Model/Workout.swift

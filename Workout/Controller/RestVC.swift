@@ -10,33 +10,35 @@ import UIKit
 
 class RestVC: UIViewController {
     var workout: Workout!
+    var startTimes: [Double]!
+    var endTimes: [Double]!
     
     @IBOutlet weak var totalTimeLabel: UILabel!
     @IBOutlet weak var countdownLabel: UILabel!
     @IBOutlet weak var upNextLabel: UILabel!
     
+    // current state
     var timer = Timer()
-    var countdown = 180
+    var id: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let curEx = workout.exercises[workout.current]
-        var nextEx: Exercise? = nil
-        if workout.current + 1 != workout.exercises.count {
-            nextEx = workout.exercises[workout.current + 1]
+        
+        id = endTimes.count
+        let ex = workout.exercises[id]
+        endTimes.append(NSTimeIntervalSince1970)
+        
+        // set labels
+        totalTimeLabel.text = Render.fmtSeconds(seconds: endTimes[id] - startTimes[0])
+        countdownLabel.text = Render.fmtSeconds(seconds: Double(ex.rest) ?? 0)
+        if id + 1 < workout.exercises.count {
+            let nex = workout.exercises[id+1]
+            let includeSection = nex.section != ex.section
+            upNextLabel.text = "Up Next: " +
+                Render.showDescription(ex: nex, includeSection: includeSection)
         }
-        totalTimeLabel.text = timeString(time: workout.seconds)
-        countdown = curEx.rest
-        countdownLabel.text = timeString(time: countdown)
-        if let nextEx = nextEx {
-            upNextLabel.text = "Up Next: " + nextEx.reps + " " + nextEx.name
-        } else {
-            upNextLabel.text = "Up Next: Nothing"
-        }
-        runTimer()
-    }
-    
-    func runTimer() {
+
+        // set timer
         timer = Timer.scheduledTimer(
             timeInterval: 1,
             target: self,
@@ -46,28 +48,25 @@ class RestVC: UIViewController {
     }
     
     @objc func updateTimer() {
-        if (countdown != 0) {
-            countdown -= 1
-            countdownLabel.text = timeString(time: countdown)
-            workout.seconds = workout.seconds + 1
-            totalTimeLabel.text = timeString(time: workout.seconds)
-        } else {
-            performSegue(withIdentifier: "GoToNextExercise", sender: nil)
+        let ex = workout.exercises[id]
+        let now = NSTimeIntervalSince1970
+        let rest = Double(ex.rest) ?? 0
+        totalTimeLabel.text = Render.fmtSeconds(seconds: now - startTimes[0])
+        countdownLabel.text = Render.fmtSeconds(seconds: Double(ex.rest) ?? 0)
+        if now >= endTimes[id] + rest {
+            if endTimes.count < workout.exercises.count {
+                performSegue(withIdentifier: "GoToNextExercise", sender: nil)
+            } else {
+                performSegue(withIdentifier: "StartVC", sender: nil)
+            }
         }
     }
-    
-    func timeString(time: Int) -> String {
-        let t = TimeInterval(time)
-        let hours = Int(t) / 3600
-        let minutes = Int(t) / 60 % 60
-        let seconds = Int(t) % 60
-        return String(format: "%02i:%02i:%02i", hours, minutes, seconds)
-    }
-    
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let exerciseVC = segue.destination as? ExerciseVC else { return }
-        workout.current = workout.current + 1
         exerciseVC.workout = workout
+        exerciseVC.startTimes = startTimes
+        exerciseVC.endTimes = endTimes
         timer.invalidate()
     }
     
