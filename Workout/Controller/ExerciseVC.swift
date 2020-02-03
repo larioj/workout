@@ -32,7 +32,7 @@ class ExerciseVC: UIViewController {
         // set start time
         id = startTimes.count
         let grace: Double = 2
-        var start = NSTimeIntervalSince1970
+        var start = NSDate().timeIntervalSince1970
         if !endTimes.isEmpty && start + grace > endTimes[id - 1] {
             start = endTimes[id - 1] + grace
         }
@@ -58,7 +58,7 @@ class ExerciseVC: UIViewController {
     }
     
     @objc func updateTimer() {
-        let now = NSTimeIntervalSince1970
+        let now = NSDate().timeIntervalSince1970
         timeLabel.text = Render.fmtSeconds(seconds: now - startTimes[id])
         totalTimeLabel.text = Render.fmtSeconds(seconds: now - startTimes[0])
     }

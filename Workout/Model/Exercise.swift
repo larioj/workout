@@ -23,7 +23,7 @@ public struct Exercise {
     
     init(csv: String, linenum: Int) {
         self.linenum = linenum
-        let values = csv.split(separator: ",")
+        let values = csv.split(separator: ",", omittingEmptySubsequences: false)
         for i in 0 ..< values.count {
             let v = String(values[i])
             switch i {

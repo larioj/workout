@@ -32,7 +32,7 @@ public struct Index {
     
     func exerciseCount(ex: Exercise) -> Int {
         let (_, section) = contents[ex.section]!
-        return section.count
+        return section[ex.exercise]!.count
     }
     
     func exerciseOrder(ex: Exercise, id: Int) -> Int {

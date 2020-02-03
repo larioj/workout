@@ -26,7 +26,7 @@ class RestVC: UIViewController {
         
         id = endTimes.count
         let ex = workout.exercises[id]
-        endTimes.append(NSTimeIntervalSince1970)
+        endTimes.append(NSDate().timeIntervalSince1970)
         
         // set labels
         totalTimeLabel.text = Render.fmtSeconds(seconds: endTimes[id] - startTimes[0])
@@ -49,10 +49,10 @@ class RestVC: UIViewController {
     
     @objc func updateTimer() {
         let ex = workout.exercises[id]
-        let now = NSTimeIntervalSince1970
+        let now = Date().timeIntervalSince1970
         let rest = Double(ex.rest) ?? 0
         totalTimeLabel.text = Render.fmtSeconds(seconds: now - startTimes[0])
-        countdownLabel.text = Render.fmtSeconds(seconds: Double(ex.rest) ?? 0)
+        countdownLabel.text = Render.fmtSeconds(seconds: (endTimes[id] + rest) - now)
         if now >= endTimes[id] + rest {
             if endTimes.count < workout.exercises.count {
                 performSegue(withIdentifier: "GoToNextExercise", sender: nil)

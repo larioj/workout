@@ -9,5 +9,6 @@
 import Foundation
 
 public struct Config {
-    static let url: URL = URL(string: "https://raw.githubusercontent.com/larioj/workout/master/workout.csv")!
+    static let url: URL =
+        URL(string: "https://raw.githubusercontent.com/larioj/workout/cpod/workout.csv")!
 }
