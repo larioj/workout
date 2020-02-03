@@ -1,10 +1,10 @@
 section,exercise,repetitions,duration,rest,weight,order
 
-Warm Up,Jumping Jacks,20
-Warm Up,Wrist Circles,15
-Warm Up,Jumping Jacks,20
-Warm Up,Shoulder Circles,15
-Warm Up,Squats,15
+Warm Up,Jumping Jacks,20,,,,
+Warm Up,Wrist Circles,15,,,,
+Warm Up,Jumping Jacks,20,,,,
+Warm Up,Shoulder Circles,15,,,,
+Warm Up,Squats,15,,,,
 
 Shoulders,Skin the Cat,7,,90,,1
 Shoulders,Skin the Cat,7,,90,,3
@@ -26,33 +26,33 @@ Shoulders,RTO Push Up,13,,90,,11
 Shoulders,RTO Push Up,13,,90,,13
 Shoulders,RTO Push Up,12,,90,,15
 
-Handstand,Setup,,,10
-Handstand,Rolls,10,,30
-Handstand,Wall Handstand,,100,30
-Handstand,Wall Handstand,,20,30
-Handstand,Wall Handstand,,300,30
+Handstand,Setup,,,10,,
+Handstand,Rolls,10,,30,,
+Handstand,Wall Handstand,,100,30,,
+Handstand,Wall Handstand,,20,30,,
+Handstand,Wall Handstand,,300,30,,
 
-Mana,L-Sit,,60,60
+Mana,L-Sit,,60,60,,
 
-Core,Setup,,,10
-Core,Plank,,60,30
-Core,Left Plank,,60,30
-Core,Right Plank,,60,30
-Core,Rev Plank,,60,30
-Core,Arch,,60,30
-Core,Hollow,,60,30
+Core,Setup,,,10,,
+Core,Plank,,60,30,,
+Core,Left Plank,,60,30,,
+Core,Right Plank,,60,30,,
+Core,Rev Plank,,60,30,,
+Core,Arch,,60,30,,
+Core,Hollow,,60,30,,
 
-Legs,Setup,,,10
-Legs,Dead Lift,9,,180,109
-Legs,Dead Lift,8,,180,109
-Legs,Dead Lift,8,,180,109
+Legs,Setup,,,10,,
+Legs,Dead Lift,9,,180,109,
+Legs,Dead Lift,8,,180,109,
+Legs,Dead Lift,8,,180,109,
 
-Legs,Setup,,,10
-Legs,Squat,12,,180,115
-Legs,Squat,11,,180,115
-Legs,Squat,11,,180,115
+Legs,Setup,,,10,,
+Legs,Squat,12,,180,115,
+Legs,Squat,11,,180,115,
+Legs,Squat,11,,180,115,
 
-Misc,Setup,,,10
+Misc,Setup,,,10,,
 Misc,Bicep Curl,7,,90,30,1
 Misc,Bicep Curl,7,,90,30,3
 Misc,Bicep Curl,6,,90,30,5
@@ -61,7 +61,7 @@ Misc,Box Jump,10,,90,,2
 Misc,Box Jump,10,,90,,4
 Misc,Box Jump,10,,90,,8
 
-Cool Down,,,Setup,,,10
+Cool Down,Setup,,,10,,
 Cool Down,Leg Split,,30,10,,1
 Cool Down,Leg Split,,30,10,,3
 Cool Down,Leg Split,,30,10,,5
