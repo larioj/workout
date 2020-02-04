@@ -14,17 +14,17 @@ Shoulders,Pull Up,11,,90,,4
 Shoulders,Pull Up,9,,90,,6
 Shoulders,Pull Up,5,,90,,8
 
-Shoulders,Dips,13,,90,,5
+Shoulders,Dips,14,,90,,5
 Shoulders,Dips,13,,90,,7
-Shoulders,Dips,12,,90,,9
+Shoulders,Dips,13,,90,,9
 
-Shoulders,Wide Row,13,,90,,10
+Shoulders,Wide Row,14,,90,,10
 Shoulders,Wide Row,13,,90,,12
-Shoulders,Wide Row,12,,90,,14
+Shoulders,Wide Row,13,,90,,14
 
-Shoulders,RTO Push Up,13,,90,,11
-Shoulders,RTO Push Up,13,,90,,13
-Shoulders,RTO Push Up,12,,90,,15
+Shoulders,RTO Push Up,4,,90,,11
+Shoulders,RTO Push Up,4,,90,,13
+Shoulders,RTO Push Up,4,,90,,15
 
 Handstand,Setup,,,10,,
 Handstand,Rolls,10,,30,,
@@ -48,9 +48,9 @@ Legs,Dead Lift,8,,180,109,
 Legs,Dead Lift,8,,180,109,
 
 Legs,Setup,,,10,,
+Legs,Squat,13,,180,115,
 Legs,Squat,12,,180,115,
-Legs,Squat,11,,180,115,
-Legs,Squat,11,,180,115,
+Legs,Squat,12,,180,115,
 
 Misc,Setup,,,10,,
 Misc,Bicep Curl,7,,90,30,1
