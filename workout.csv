@@ -14,15 +14,15 @@ Shoulders,Pull Up,12,,90,,4
 Shoulders,Pull Up,12,,90,,6
 Shoulders,Pull Up,3,,90,,8
 
-Shoulders,Dips,15,,90,,5
-Shoulders,Dips,15,,90,,7
-Shoulders,Dips,15,,90,,9
+Shoulders,Dips,7,,90,,5
+Shoulders,Dips,7,,90,,7
+Shoulders,Dips,7,,90,,9
 
 Shoulders,Wide Row,15,,90,,10
 Shoulders,Wide Row,15,,90,,12
 Shoulders,Wide Row,15,,90,,14
 
-Shoulders,Ring Push Up,8,,90,,11
+Shoulders,Ring Push Up,9,,90,,11
 Shoulders,Ring Push Up,8,,90,,13
 Shoulders,Ring Push Up,8,,90,,15
 
@@ -43,18 +43,18 @@ Core,Arch,,60,30,,
 Core,Hollow,,60,30,,
 
 Legs,Setup,,,10,,
-Legs,Dead Lift,10,,180,109,
+Legs,Dead Lift,11,,180,109,
 Legs,Dead Lift,10,,180,109,
 Legs,Dead Lift,10,,180,109,
 
 Legs,Setup,,,10,,
-Legs,Squat,14,,180,115,
+Legs,Squat,15,,180,115,
 Legs,Squat,14,,180,115,
 Legs,Squat,14,,180,115,
 
 Misc,Setup,,,10,,
 Misc,Bicep Curl,9,,90,30,1
-Misc,Bicep Curl,8,,90,30,3
+Misc,Bicep Curl,9,,90,30,3
 Misc,Bicep Curl,8,,90,30,5
 
 Misc,Box Jump,10,,90,,2
