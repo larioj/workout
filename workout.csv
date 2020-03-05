@@ -10,23 +10,23 @@ Shoulder,Setup,,,10,,
 
 Shoulders,Pull Up,13,,90,,1
 Shoulders,Pull Up,13,,90,,3
-Shoulders,Pull Up,12,,90,,5
+Shoulders,Pull Up,13,,90,,5
 
 Shoulders,Dips,8,,90,,2
-Shoulders,Dips,7,,90,,4
+Shoulders,Dips,8,,90,,4
 Shoulders,Dips,7,,90,,6
 
 Shoulder,Setup,,,10,,
 
 Shoulders,Wide Row,8,,90,,1
-Shoulders,Wide Row,7,,90,,3
+Shoulders,Wide Row,8,,90,,3
 Shoulders,Wide Row,7,,90,,5
 
-Shoulders,Ring Push Up,9,,90,,2
+Shoulders,Ring Push Up,10,,90,,2
 Shoulders,Ring Push Up,9,,90,,4
 Shoulders,Ring Push Up,9,,90,,6
 
-Shoulder,Setup,,,10,,
+Shoulder,German Hang Setup,,,10,,
 
 Shoulders,German Hang,,60,90,,
 
@@ -38,8 +38,7 @@ Handstand,Wall Handstand,,300,30,,
 
 Mana,Setup,,,10,,
 Mana,L-Sit,,30,60,,
-Mana,L-Sit,,25,60,,
-Mana,L-Sit,,10,60,,
+Mana,L-Sit,,30,60,,
 
 Core,Setup,,,10,,
 Core,Plank,,60,30,,
@@ -50,21 +49,21 @@ Core,Arch,,60,30,,
 Core,Hollow,,60,30,,
 
 Legs,Setup,,,10,,
-Legs,Dead Lift,11,,180,109,
+Legs,Dead Lift,12,,180,109,
 Legs,Dead Lift,11,,180,109,
 Legs,Dead Lift,11,,180,109,
 
 Legs,Setup,,,10,,
-Legs,Squat,15,,180,115,
-Legs,Squat,15,,180,115,
-Legs,Squat,15,,180,115,
+Legs,Squat,7,,180,115,
+Legs,Squat,7,,180,115,
+Legs,Squat,7,,180,115,
 
 Misc,Setup,,,10,,
 Misc,Bicep Curl,10,,90,30,1
-Misc,Bicep Curl,9,,90,30,3
+Misc,Bicep Curl,10,,90,30,3
 Misc,Bicep Curl,9,,90,30,5
 
-Misc,Shoulder Press,7,,90,,2
+Misc,Shoulder Press,8,,90,,2
 Misc,Shoulder Press,7,,90,,4
 Misc,Shoulder Press,7,,90,,8
 
